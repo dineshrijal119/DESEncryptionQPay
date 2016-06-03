@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context="com.example.deadlydragger.desencryption.MainActivity">
+
+    <EditText
+
+        android:id="@+id/getText"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:background="@android:color/holo_blue_bright"
+        android:hint="Enter text to encrype" />
+    <Button
+        android:id="@+id/click"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:text="Click to get encrypt key"/>
+    <TextView
+        android:id="@+id/textView"
+        android:background="@android:color/holo_blue_light"
+        android:layout_width="300dp"
+        android:layout_height="60dp" />
+    <TextView
+        android:id="@+id/textView2"
+        android:background="@android:color/holo_blue_light"
+        android:layout_width="300dp"
+        android:layout_height="60dp" />
+</LinearLayout>
